@@ -1,0 +1,27 @@
+html {
+  // 62.5% <=> 10px
+  font-size: 62.5%;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+
+  transition: all 0.2s ease-in-out;
+  will-change: transform, opacity;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(247, 189, 32);
+    transform: scale(1.08);
+  }
+}

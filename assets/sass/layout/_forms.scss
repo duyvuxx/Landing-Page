@@ -1,0 +1,29 @@
+.form-input {
+  text-align: center;
+
+  .input-email {
+    max-width: 25rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+    border-radius: 5px;
+    
+    &:focus {
+      border: none;
+      outline: 2px groove coral;
+    }
+  }
+  
+  .submit {
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 3rem;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
