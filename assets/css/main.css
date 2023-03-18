@@ -254,6 +254,7 @@ ul {
 }
 .main .infor {
   margin: 7rem auto 5rem;
+  padding: 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,6 +319,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2rem;
+  padding: 0 2rem;
 }
 .main .box-items {
   -webkit-box-flex: 1;
