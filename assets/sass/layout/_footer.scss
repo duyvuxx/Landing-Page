@@ -10,7 +10,7 @@
     @include flex(center, space-around);
     gap: 3rem;
   }
-  
+
   .btn-copyright {
     font-weight: bold;
     border-radius: 5px;
@@ -20,5 +20,31 @@
   > p {
     font-family: "Lato", sans-serif;
     color: rgba(0, 0, 0, 0.671);
+  }
+
+  p > a {
+    font-weight: bold;
+    color: #573b02;
+
+    position: relative;
+
+    &:hover {
+      color: #ffffff;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+
+      width: 65%;
+      height: 1px;
+      border-radius: 2px;
+      background-color: #302001;
+    }
+
   }
 }

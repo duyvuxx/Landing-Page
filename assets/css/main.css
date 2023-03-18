@@ -133,6 +133,27 @@ ul {
   font-family: "Lato", sans-serif;
   color: rgba(0, 0, 0, 0.671);
 }
+.footer p > a {
+  font-weight: bold;
+  color: #573b02;
+  position: relative;
+}
+.footer p > a:hover {
+  color: #ffffff;
+}
+.footer p > a::after {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 65%;
+  height: 1px;
+  border-radius: 2px;
+  background-color: #302001;
+}
 
 .form-input {
   text-align: center;
