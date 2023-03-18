@@ -17,7 +17,14 @@
       href="./assets/imgs/orange_smiley_512.png"
       type="image/png"
     />
-
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- bootstrap v5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -168,7 +175,7 @@
               <button
                 class="btn box-items-btn"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modal"
               >
                 BUY
               </button>
@@ -186,7 +193,7 @@
               <button
                 class="btn box-items-btn"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modal"
               >
                 BUY
               </button>
@@ -204,7 +211,7 @@
               <button
                 class="btn box-items-btn"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modal"
               >
                 BUY
               </button>
@@ -231,15 +238,15 @@
       <!-- Modal -->
       <div
         class="modal fade"
-        id="exampleModal"
+        id="modal"
         tabindex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="modalLabel"
         aria-hidden="true"
       >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="modalLabel">Product in the cart</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -247,7 +254,16 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+
+            <div class="modal-infor">
+              <div class="modal-body">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="modal-body">
+                Your product will be waiting for you in the cart.
+              </div>
+            </div >
+
             <div class="modal-footer">
               <button
                 type="button"
@@ -257,7 +273,7 @@
                 Close
               </button>
               <button type="button" class="btn btn-primary">
-                Save changes
+                Go to cart
               </button>
             </div>
           </div>

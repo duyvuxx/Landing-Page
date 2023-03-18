@@ -158,6 +158,61 @@ ul {
   font-size: 1.5rem;
 }
 
+.modal-content {
+  margin: 25rem auto;
+  width: 80%;
+}
+.modal-content .modal-header {
+  background: -webkit-gradient(linear, left top, right top, from(#fc4a1a), to(#f7b733)), #fc4a1a;
+  background: linear-gradient(to right, #fc4a1a, #f7b733), #fc4a1a;
+  color: white;
+}
+.modal-content .modal-infor {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.modal-content .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.modal-content .modal-footer .btn-secondary {
+  margin-right: 0.5rem;
+  border: 1px solid #fc4a1a;
+  background-clip: border-box;
+  background-color: transparent;
+  color: #fc4a1a;
+}
+.modal-content .modal-footer .btn-secondary:hover {
+  border: none;
+  background-color: #f7b733;
+  color: white;
+}
+.modal-content .modal-footer .btn-primary {
+  border: 1px solid #fc4a1a;
+  background-color: transparent;
+  color: #fc4a1a;
+}
+.modal-content .modal-footer .btn-primary:hover {
+  border: none;
+  background-color: #f7b733;
+  color: white;
+}
+
 .home {
   background-image: url("/assets/imgs/nends.png");
   background-repeat: no-repeat;
@@ -171,7 +226,7 @@ ul {
 }
 
 .main {
-  margin-top: 7rem;
+  padding-top: 10rem;
 }
 .main .title-h2 {
   text-align: center;
@@ -282,7 +337,7 @@ ul {
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .home .wrapper {
     max-width: 90%;
   }
@@ -315,47 +370,36 @@ ul {
     height: 30rem;
   }
 }
-@media screen and (max-width: 375px) {
-  .home .header .nav-left {
-    height: 6rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 2rem;
+@media screen and (max-width: 46.1875em) {
+  html {
+    scroll-padding-top: 15rem;
   }
-  .home .header .nav-left .title-h1 {
-    padding: 0;
-    letter-spacing: 2px;
+  .home .header .nav-left {
+    min-height: 14.5rem;
+    display: block;
     text-align: center;
   }
+  .home .header .nav-left .title-h1 {
+    padding-top: 2rem;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+  }
   .home .header .nav-left .nav-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    overflow: hidden;
   }
   .home .header .nav-left .nav-right .nav-right-link {
+    display: block;
     margin-right: 0;
     padding: 0;
+    border-radius: 0;
+    border-top: 1px solid rgb(124, 25, 0);
   }
   .home .wrapper {
     max-width: 80%;
   }
   .home .title-h2 {
-    padding-top: 9rem;
+    padding-top: 8rem;
     text-align: center;
   }
   .main .infor {
@@ -376,6 +420,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 2rem;
   }
   .main .infor .description {
     width: 20rem;

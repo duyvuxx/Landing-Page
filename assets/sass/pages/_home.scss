@@ -12,7 +12,7 @@
 }
 
 .main {
-  margin-top: $header-h;
+  padding-top: 10rem;
   
   .title-h2 {
     text-align: center;
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .home {
     .wrapper {
       max-width: 90%;
@@ -127,30 +127,38 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 46.1875em) {
+  html {
+    scroll-padding-top: 15rem;
+  }
+  
   .home {
     .header {
       .nav-left {
-        height: 6rem;
+        min-height: 14.5rem;
 
-        @include flex(center, center);
-        gap: 2rem;
-
+        display: block;
+        
+        text-align: center;
+        
+        
         .title-h1 {
-          padding: 0;
-
+          padding-top: 2rem;
+          
           letter-spacing: 2px;
-          text-align: center;
+          font-size: 2.5rem;
         }
-
+        
         .nav-right {
-          @include flex;
-          gap: 0.5rem;
-          font-size: 1.2rem;
-
+          font-size: 1.7rem;
+          
+          overflow: hidden;
           .nav-right-link {
+            display: block;
             margin-right: 0;
             padding: 0;
+            border-radius: 0;
+            border-top: 1px solid rgb(124, 25, 0);
           }
         }
       }
@@ -161,7 +169,7 @@
     }
 
     .title-h2 {
-      padding-top: 9rem;
+      padding-top: 8rem;
 
       text-align: center;
     }
@@ -171,9 +179,11 @@
     .infor {
       margin: 4rem auto 4rem;
       height: 75rem;
+
       .infor-items {
         @include flex(start, space-evenly);
         flex-direction: column;
+        gap: 2rem;
       }
 
       .description {
