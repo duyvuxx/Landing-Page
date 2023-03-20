@@ -13,7 +13,7 @@
 
 .main {
   padding-top: 10rem;
-  
+
   .title-h2 {
     text-align: center;
   }
@@ -134,27 +134,26 @@
   html {
     scroll-padding-top: 15rem;
   }
-  
+
   .home {
     .header {
       .nav-left {
         min-height: 14.5rem;
 
         display: block;
-        
+
         text-align: center;
-        
-        
+
         .title-h1 {
           padding-top: 2rem;
-          
+
           letter-spacing: 2px;
           font-size: 2.5rem;
         }
-        
+
         .nav-right {
           font-size: 1.7rem;
-          
+
           overflow: hidden;
           .nav-right-link {
             display: block;
