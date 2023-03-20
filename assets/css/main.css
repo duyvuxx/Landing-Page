@@ -212,23 +212,22 @@ ul {
 }
 .modal-content .modal-footer .btn-secondary {
   margin-right: 0.5rem;
-  border: 1px solid #fc4a1a;
-  background-clip: border-box;
+  outline: 1px solid #fc4a1a;
   background-color: transparent;
   color: #fc4a1a;
 }
 .modal-content .modal-footer .btn-secondary:hover {
-  border: none;
+  outline: none;
   background-color: #f7b733;
   color: white;
 }
 .modal-content .modal-footer .btn-primary {
-  border: 1px solid #fc4a1a;
+  outline: 1px solid #fc4a1a;
   background-color: transparent;
   color: #fc4a1a;
 }
 .modal-content .modal-footer .btn-primary:hover {
-  border: none;
+  outline: none;
   background-color: #f7b733;
   color: white;
 }

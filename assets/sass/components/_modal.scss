@@ -17,27 +17,26 @@
 
     .btn-secondary {
       margin-right: 0.5rem;
-      border: 1px solid #fc4a1a;
-      background-clip: border-box;
+      outline: 1px solid #fc4a1a;
 
       background-color: transparent;
       color: #fc4a1a;
 
       &:hover {
-        border: none;
+        outline: none;
         background-color: #f7b733;
         color: white;
       }
     }
 
     .btn-primary {
-      border: 1px solid #fc4a1a;
+      outline: 1px solid #fc4a1a;
 
       background-color: transparent;
       color: #fc4a1a;
 
       &:hover {
-        border: none;
+        outline: none;
         background-color: #f7b733;
         color: white;
       }
