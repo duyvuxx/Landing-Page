@@ -17,7 +17,6 @@
 Here's the project that I build names "product landing page" to market a product of Nendoroid form Goods Smile Company.
 
 <!-- CONTACT -->
-## Contact
+#### 🐳 Author: [Duy Vu](https://github.com/duyvuxx)
 
-DUY VU - [Github](https://github.com/duyvuxx)
-
+##### ⏰ Created at 15-03-2023

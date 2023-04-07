@@ -233,7 +233,7 @@ ul {
 }
 
 .home {
-  background-image: url("/assets/imgs/nends.png");
+  background-color: rgb(184, 89, 11);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
