@@ -12,6 +12,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+https://product-landing-page.freecodecamp.rocks/
+
 <img src="./assets/imgs/screenshot.PNG" alt="screenshot" width="100%" height="450">
 
 Here's the project that I build names "product landing page" to market a product of Nendoroid form Goods Smile Company.
