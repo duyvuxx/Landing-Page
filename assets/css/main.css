@@ -102,9 +102,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -132,6 +132,7 @@ ul {
 .footer > p {
   font-family: "Lato", sans-serif;
   color: rgba(0, 0, 0, 0.671);
+  margin-bottom: 0;
 }
 .footer p > a {
   font-weight: bold;
@@ -239,7 +240,7 @@ ul {
   background-position: center;
 }
 .home .wrapper {
-  max-width: 60%;
+  max-width: 80%;
   margin: 0rem auto;
   background-color: white;
 }
@@ -417,7 +418,7 @@ ul {
     border-top: 1px solid rgb(124, 25, 0);
   }
   .home .wrapper {
-    max-width: 80%;
+    max-width: 93%;
   }
   .home .title-h2 {
     padding-top: 8rem;
@@ -431,9 +432,9 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -445,6 +446,7 @@ ul {
   }
   .main .infor .description {
     width: 20rem;
+    text-align: center;
   }
   .main .box {
     display: -webkit-box;
